@@ -16,5 +16,5 @@ This will be a glorified random number generator. I will set up different dice o
 ### Encounters
 This will be the most complex part of the program. I will have three encounters set up (easy, medium, and hard). I'm not sure how the combat will work yet, but we'll get there when I get there. Maybe I'll have mouse input, so you can click on who to attack and what to roll. (I haven't even thought of how to make spells yet, so I'm not sure how those will end up or if they'll even be included)
 
-### Author
+## Author
 RileyStratton | Riley Stratton | riley.s.stratton@outlook.com
