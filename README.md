@@ -3,9 +3,6 @@ A custom D&amp;D Character Sheet and Dice Roller. Maybe even a couple rounds of 
 
 ## General
 This program will be developed in Python 3.9.7 and to play you will need to download Python 3. For ease of explanation and natural separation, this project will be broken down into three parts.
-* Character Sheet
-* Dice Roller
-* Encounters
 
 ### Character Sheet
 This will have all the basics. It will keep track of all 6 of the basic ability scores and modifiers, proficiency bonus, level (I might even add some equipment and AC to the mix). It will have the option to store this information in a json format. It will also be able to open a json file, and modify the ability scores.
