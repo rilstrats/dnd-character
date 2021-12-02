@@ -1,0 +1,12 @@
+Inheritance
+    Inheriting other information from other classes.
+
+Abstraction
+    Abstract classes that you use to make other classes for
+
+Polymorphism
+    Using the same method name in different classes so that you can use a for loop instead of if logic
+
+Encapsulation
+    Hiding information
+    Using getters and setters

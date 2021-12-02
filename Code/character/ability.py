@@ -1,6 +1,5 @@
 class Ability():
-    def __init__(self, name, score):
-        self._name = name
+    def __init__(self, score, search_object):
         self.set_score(score)
 
     def set_score(self, score):
