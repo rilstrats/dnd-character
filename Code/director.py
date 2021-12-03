@@ -21,5 +21,3 @@ class Director():
             search_object = SearchSpecific(ability["url"])
             index = ability["index"]
             self.abilities[index] = Ability(score, search_object)
-
-director = Director()
