@@ -1,7 +1,7 @@
 import sys
-from game.point import Point
+from point import Point
 from asciimatics.event import KeyboardEvent
-from game import constants
+import constants
 
 class InputService:
     """Detects player input. The responsibility of the class of objects is to detect and communicate player keypresses.
