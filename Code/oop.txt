@@ -1,3 +1,5 @@
+This file was just to help me figure out what classes would use which principles of Object Oriented Programming
+
 Inheritance
     Inheriting from other classes (fulfilled by action, action prepare dice, action prepare game, and action prepare character)
 
