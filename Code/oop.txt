@@ -1,12 +1,11 @@
 Inheritance
-    Inheriting other information from other classes.
+    Inheriting from other classes (fulfilled by action)
 
 Abstraction
-    Abstract classes that you use to make other classes for
+    Abstract classes that you use to make other classes (fulfilled by ability)
 
 Polymorphism
-    Using the same method name in different classes so that you can use a for loop instead of if logic
+    Using the same method name in different classes so that you can use a for loop instead of if logic (fulfilled by dice and controll gui)
 
 Encapsulation
-    Hiding information
-    Using getters and setters
+    Hiding information, using getters and setters (fulfilled by ability and character)

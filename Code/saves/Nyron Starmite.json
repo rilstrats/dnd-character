@@ -1,0 +1,14 @@
+{   
+    "name":"Nyron Starmite",
+    "race":"Half-Elf",
+    "class":"Paladin",
+    "level":1,
+    "str":16,
+    "dex":10,
+    "con":14,
+    "int":8,
+    "wis":12,
+    "cha":16,
+    "hp_max":12,
+    "ac":17
+}
