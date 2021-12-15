@@ -1,8 +1,6 @@
 """
-
+This is the main file that just starts the game and makes calls to the relevant classes.
 """
-
-import constants
 
 from action_prepare_game import PrepareGame
 from character_gui import CharacterGUI
