@@ -1,3 +1,8 @@
+"""
+This is just a helper class, it has functions that don't make sense to have in other places.
+It mainly has functions to get user input and validate that input.
+"""
+
 class Helper():
     
     def input_yes_no(self, prompt="User input (YES or NO): ", validating=False, error="Please follow the prompt!"):

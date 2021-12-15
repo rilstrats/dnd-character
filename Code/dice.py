@@ -1,3 +1,13 @@
+"""
+The following class is an abstract class that is used to represent dice of all different sizes
+
+OOP Principles Used:
+    Abstraction:
+        This class is set up so you can pass any name and amount of sides and it will represent that dice, without having to make any other large amount of changes
+    Polymorphish:
+        All dice objects are stored in a dictionary so they can be called polymorphically
+"""
+
 import random
 
 class Dice():

@@ -1,3 +1,13 @@
+"""
+This class holds all relevant information to the character.
+
+OOP Principles Used:
+    Encapsulation:
+        The majority of this information is hidden (_variable_name) and all necessary information can be accessed by using getters and setters.
+    Polymorphism:
+        A for loop is used to create each different ability object.
+"""
+
 import constants
 import json
 
@@ -40,7 +50,7 @@ class Character():
             json.dump(self._save, outfile)
     
     def _load_character(self):
-        save_path = self._helper.input_path(prompt="What is the NAME of the character you want to load? (ex: Nyron Starmite) ", validating=True, prefix="saves/", suffix=".json")
+        save_path = self._helper.input_path(prompt="What is the NAME of the character you want to load? (ex: Nyron Starmite) ", validating=True, prefix="code/saves/", suffix=".json")
         with open(save_path) as outfile:
             self._save = json.load(outfile)
         self._name = self._save["name"]

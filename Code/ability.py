@@ -1,3 +1,15 @@
+"""
+This abstract class can represent any ability.
+
+OOP Principles Used:
+    Encapsulation:
+        The majority of this information is hidden (_variable_name) and all necessary information can be accessed by using getters and setters.
+    Abstraction:
+        All you have to do is pass in a name and score, and it can represent any ability (even the optional abilities in the Dungeon Master's Guide)
+    Polymorphism:
+        All ability scores will be stored in a dictionary so they can be called polymorphically
+"""
+
 class Ability():
     def __init__(self, name, score):
         self.set_score(score)

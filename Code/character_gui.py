@@ -1,3 +1,12 @@
+"""
+This class is used to set up and controll the GUI. This class uses polymorphism to drastically reduce the amount of buttons and function calls I have to write by hand.
+
+OOP Principles Used:
+    Polymorphism:
+        Using a for loop I iterated through the ability scores and created two labels and two buttons for each ability score, each button containing a polymorph method call to roll dice based on the ability it is connected to.
+        Using a for loop I iterated through all the dice and created four buttons, each containing a polymorph method call to roll the dice the button is assigned to
+"""
+
 import constants
 
 from tkinter import *
