@@ -1,11 +1,11 @@
 Inheritance
-    Inheriting from other classes (fulfilled by action)
+    Inheriting from other classes (fulfilled by action, action prepare dice, action prepare game, and action prepare character)
 
 Abstraction
     Abstract classes that you use to make other classes (fulfilled by ability and dice)
 
 Polymorphism
-    Using the same method name in different classes so that you can use a for loop instead of if logic (fulfilled by dice and controll gui)
+    Using the same method name in different classes so that you can use a for loop instead of if logic (fulfilled by dice, ability, character, action prepare dice, and controll gui)
 
 Encapsulation
     Hiding information, using getters and setters (fulfilled by ability and character)
