@@ -46,7 +46,7 @@ class Character():
             "hp_max":self._hp_max,
             "ac":self._ac
             }
-        with open("saves/" + self._name + ".json", "w") as outfile:
+        with open("code/saves/" + self._name + ".json", "w") as outfile:
             json.dump(self._save, outfile)
     
     def _load_character(self):
